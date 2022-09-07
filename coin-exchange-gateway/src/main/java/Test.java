@@ -1,5 +1,3 @@
-import lombok.extern.slf4j.Slf4j;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -14,7 +12,7 @@ public class Test {
 
   public static void main(String[] args) {
     int length = 32;
-    boolean upper = true, lower = true, number = true, symbol = true;
+    boolean upper = true, lower = true, number = true, symbol = false;
     List<String> list = new ArrayList<>();
     if (upper){
       for (char i = 'A'; i <= 'Z'; i++) {
